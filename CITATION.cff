@@ -18,8 +18,8 @@ authors:
     given-names: "Jan Duedal"
   - family-names: "Subburaj"
     given-names: "Karupppasamy"
-repository-code: "https://github.com/RxSGTech/Temporal_Dynamization"
-url: "https://github.com/RxSGTech/Temporal_Dynamization"
+repository-code: "https://github.com/MedEngLab/Temporal_Dynamization"
+url: "https://github.com/MedEngLab/Temporal_Dynamization"
 preferred-citation:
   type: article
   title: "Forward and Reverse Dynamization of Locking Plate Constructs: a 3D Mechanobiological Simulation of Osteotomy Healing"
