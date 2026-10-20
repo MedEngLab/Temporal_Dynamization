@@ -2,9 +2,9 @@
 
 Simulation output and the tissue-differentiation rule base in machine-readable form for the article:
 
-> Anders J. Wilhem, Magnus B Madsen, Gargi Shankar Nayak, Sasa Cukovic, Jan Duedal Rolfing, Karupppasamy Subburaj (2026). Forward and Reverse Dynamization of Lockling Plate Constructs: a 3D Mechanobiological Simulation of Osteotomy Healing. *Journal of the Mechanical Behavior of Biomedical Materials*. [DOI]
+> Anders Jeppesen Wilhem, Magnus Biørn Madsen, Gargi Shankar Nayak, Sasa Cukovic, Jan Duedal Rölfing, Karupppasamy Subburaj (2026). Forward and Reverse Dynamization of Locking Plate Constructs: a 3D Mechanobiological Simulation of Osteotomy Healing. *Journal of the Mechanical Behavior of Biomedical Materials* (submitted).
 
-Dataset: [Authors] (2026). Zenodo. [DOI]. License: CC BY 4.0 (see `LICENSE`).
+Dataset: Wilhem et al. (2026), version 1.0, https://github.com/RxSGTech/Temporal_Dynamization (an archived version with a DOI will follow). License: CC BY 4.0 (see `LICENSE`).
 
 The article simulated 56 days of healing of a plated 3 mm transverse osteotomy with a three-dimensional finite element model coupled with a fuzzy-logic model of tissue differentiation. It compared constant rigid fixation, constant flexible fixation, forward dynamization (rigid to flexible) and reverse dynamization (flexible to rigid), with two flexible constructs (M, plate modulus 5.09 GPa; H, 0.63 GPa) and switch days 8 and 15. Section, equation and table numbers below refer to the article and its Supplementary Material. The simulation code is not part of this package.
 
