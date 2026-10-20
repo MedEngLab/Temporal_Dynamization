@@ -1,0 +1,77 @@
+rule_base,role,variable,range_min,range_max,set_index,set_name,shape,parameters
+reference_rule_base,input,cartilage_fraction,0,1,1,low,trapezoid,0 0 0.25 0.5
+reference_rule_base,input,cartilage_fraction,0,1,2,medium,triangle,0.25 0.5 0.75
+reference_rule_base,input,cartilage_fraction,0,1,3,high,trapezoid,0.5 0.75 1 1
+reference_rule_base,input,bone_fraction,0,1,1,low,trapezoid,0 0 0.25 0.5
+reference_rule_base,input,bone_fraction,0,1,2,medium,triangle,0.25 0.5 0.75
+reference_rule_base,input,bone_fraction,0,1,3,high,trapezoid,0.5 0.75 1 1
+reference_rule_base,input,hydrostatic_strain,-0.1,0.1,1,negative destructive,trapezoid,-0.1 -0.1 -0.05 -0.02
+reference_rule_base,input,hydrostatic_strain,-0.1,0.1,2,negative high,trapezoid,-0.05 -0.02 -0.01 -0.008
+reference_rule_base,input,hydrostatic_strain,-0.1,0.1,3,negative medium,trapezoid,-0.01 -0.008 -0.0003 -0.0001
+reference_rule_base,input,hydrostatic_strain,-0.1,0.1,4,low,trapezoid,-0.0003 -0.0001 0.0001 0.0003
+reference_rule_base,input,hydrostatic_strain,-0.1,0.1,5,positive medium,trapezoid,0.0001 0.0003 0.02 0.05
+reference_rule_base,input,hydrostatic_strain,-0.1,0.1,6,positive destructive,trapezoid,0.02 0.05 0.1 0.1
+reference_rule_base,input,distortional_strain,0,0.2,1,low,trapezoid,0 0 0.0001 0.0005
+reference_rule_base,input,distortional_strain,0,0.2,2,medium,trapezoid,0.0001 0.0005 0.05 0.06
+reference_rule_base,input,distortional_strain,0,0.2,3,high,trapezoid,0.05 0.06 0.15 0.17
+reference_rule_base,input,distortional_strain,0,0.2,4,destructive,trapezoid,0.15 0.17 1 1
+reference_rule_base,input,perfusion,0,1,1,low,trapezoid,0 0 0.2 0.4
+reference_rule_base,input,perfusion,0,1,2,medium,trapezoid,0.2 0.4 0.6 0.8
+reference_rule_base,input,perfusion,0,1,3,high,trapezoid,0.6 0.8 1 1
+reference_rule_base,input,max_neighbor_perfusion,0,1,1,low,trapezoid,0 0 0.2 0.4
+reference_rule_base,input,max_neighbor_perfusion,0,1,2,medium,trapezoid,0.2 0.4 0.6 0.8
+reference_rule_base,input,max_neighbor_perfusion,0,1,3,high,trapezoid,0.6 0.8 1 1
+reference_rule_base,input,max_neighbor_bone_fraction,0,1,1,low,trapezoid,0 0 0.25 0.5
+reference_rule_base,input,max_neighbor_bone_fraction,0,1,2,medium,triangle,0.25 0.5 0.75
+reference_rule_base,input,max_neighbor_bone_fraction,0,1,3,high,trapezoid,0.5 0.75 1 1
+reference_rule_base,output,perfusion_change,-1,1,1,decrease,trapezoid,-1 -1 -0.75 -0.25
+reference_rule_base,output,perfusion_change,-1,1,2,no change,trapezoid,-0.75 -0.25 0.25 0.75
+reference_rule_base,output,perfusion_change,-1,1,3,increase,trapezoid,0.25 0.75 1 1
+reference_rule_base,output,bone_fraction_change,-1.5,0.3,1,no change,triangle,-0.1 0 0.1
+reference_rule_base,output,bone_fraction_change,-1.5,0.3,2,endochondral ossification,triangle,0.2 0.3 0.4
+reference_rule_base,output,bone_fraction_change,-1.5,0.3,3,bone destruction,triangle,-1.5 -1 -0.5
+reference_rule_base,output,bone_fraction_change,-1.5,0.3,4,intramembranous ossification,triangle,0.1 0.2 0.3
+reference_rule_base,output,bone_fraction_change,-1.5,0.3,5,atrophy,triangle,-0.5 -0.4 -0.3
+reference_rule_base,output,cartilage_fraction_change,-2.5,0.7,1,cartilage destruction,triangle,-2.5 -2 -1.5
+reference_rule_base,output,cartilage_fraction_change,-2.5,0.7,2,no change,triangle,-0.05 0 0.05
+reference_rule_base,output,cartilage_fraction_change,-2.5,0.7,3,chondrogenesis,triangle,0.3 0.5 0.7
+reference_rule_base,output,cartilage_fraction_change,-2.5,0.7,4,atrophy,triangle,-1.2 -0.8 -0.4
+reference_rule_base,output,cartilage_fraction_change,-2.5,0.7,5,endochondral ossification,triangle,-0.4 -0.3 -0.2
+high_threshold_variant,input,cartilage_fraction,0,1,1,low,trapezoid,0 0 0.25 0.5
+high_threshold_variant,input,cartilage_fraction,0,1,2,medium,triangle,0.25 0.5 0.75
+high_threshold_variant,input,cartilage_fraction,0,1,3,high,trapezoid,0.5 0.75 1 1
+high_threshold_variant,input,bone_fraction,0,1,1,low,trapezoid,0 0 0.25 0.5
+high_threshold_variant,input,bone_fraction,0,1,2,medium,triangle,0.25 0.5 0.75
+high_threshold_variant,input,bone_fraction,0,1,3,high,trapezoid,0.5 0.75 1 1
+high_threshold_variant,input,hydrostatic_strain,-0.1,0.1,1,negative destructive,trapezoid,-0.1 -0.1 -0.05 -0.02
+high_threshold_variant,input,hydrostatic_strain,-0.1,0.1,2,negative high,trapezoid,-0.05 -0.02 -0.01 -0.008
+high_threshold_variant,input,hydrostatic_strain,-0.1,0.1,3,negative medium,trapezoid,-0.01 -0.008 -0.001 -0.0001
+high_threshold_variant,input,hydrostatic_strain,-0.1,0.1,4,low,trapezoid,-0.001 -0.0001 0.0001 0.001
+high_threshold_variant,input,hydrostatic_strain,-0.1,0.1,5,positive medium,trapezoid,0.0001 0.001 0.02 0.05
+high_threshold_variant,input,hydrostatic_strain,-0.1,0.1,6,positive destructive,trapezoid,0.02 0.05 0.1 0.1
+high_threshold_variant,input,distortional_strain,0,0.2,1,low,trapezoid,0 0 0.0001 0.001
+high_threshold_variant,input,distortional_strain,0,0.2,2,medium,trapezoid,0.0001 0.001 0.05 0.06
+high_threshold_variant,input,distortional_strain,0,0.2,3,high,trapezoid,0.05 0.06 0.15 0.17
+high_threshold_variant,input,distortional_strain,0,0.2,4,destructive,trapezoid,0.15 0.17 1 1
+high_threshold_variant,input,perfusion,0,1,1,low,trapezoid,0 0 0.2 0.4
+high_threshold_variant,input,perfusion,0,1,2,medium,trapezoid,0.2 0.4 0.6 0.8
+high_threshold_variant,input,perfusion,0,1,3,high,trapezoid,0.6 0.8 1 1
+high_threshold_variant,input,max_neighbor_perfusion,0,1,1,low,trapezoid,0 0 0.2 0.4
+high_threshold_variant,input,max_neighbor_perfusion,0,1,2,medium,trapezoid,0.2 0.4 0.6 0.8
+high_threshold_variant,input,max_neighbor_perfusion,0,1,3,high,trapezoid,0.6 0.8 1 1
+high_threshold_variant,input,max_neighbor_bone_fraction,0,1,1,low,trapezoid,0 0 0.25 0.5
+high_threshold_variant,input,max_neighbor_bone_fraction,0,1,2,medium,triangle,0.25 0.5 0.75
+high_threshold_variant,input,max_neighbor_bone_fraction,0,1,3,high,trapezoid,0.5 0.75 1 1
+high_threshold_variant,output,perfusion_change,-1,1,1,decrease,trapezoid,-1 -1 -0.75 -0.25
+high_threshold_variant,output,perfusion_change,-1,1,2,no change,trapezoid,-0.75 -0.25 0.25 0.75
+high_threshold_variant,output,perfusion_change,-1,1,3,increase,trapezoid,0.25 0.75 1 1
+high_threshold_variant,output,bone_fraction_change,-1.5,0.3,1,no change,triangle,-0.1 0 0.1
+high_threshold_variant,output,bone_fraction_change,-1.5,0.3,2,endochondral ossification,triangle,0.2 0.3 0.4
+high_threshold_variant,output,bone_fraction_change,-1.5,0.3,3,bone destruction,triangle,-1.5 -1 -0.5
+high_threshold_variant,output,bone_fraction_change,-1.5,0.3,4,intramembranous ossification,triangle,0.1 0.2 0.3
+high_threshold_variant,output,bone_fraction_change,-1.5,0.3,5,atrophy,triangle,-0.5 -0.4 -0.3
+high_threshold_variant,output,cartilage_fraction_change,-2.5,0.7,1,cartilage destruction,triangle,-2.5 -2 -1.5
+high_threshold_variant,output,cartilage_fraction_change,-2.5,0.7,2,no change,triangle,-0.05 0 0.05
+high_threshold_variant,output,cartilage_fraction_change,-2.5,0.7,3,chondrogenesis,triangle,0.3 0.5 0.7
+high_threshold_variant,output,cartilage_fraction_change,-2.5,0.7,4,atrophy,triangle,-1.2 -0.8 -0.4
+high_threshold_variant,output,cartilage_fraction_change,-2.5,0.7,5,endochondral ossification,triangle,-0.4 -0.3 -0.2

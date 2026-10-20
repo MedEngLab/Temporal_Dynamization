@@ -1,0 +1,4 @@
+construct,plate_modulus_MPa,empty_gap_axial_stiffness_N_per_mm,stiffness_reduction_factor,gap_closure_near_cortex_um_at_200N,gap_closure_far_cortex_um_at_200N,interfragmentary_strain_day1,plate_load_share_day1
+rigid,110000,6907.104,1,5.802641,51.04695,0.008571803,0.8860694
+M (moderately flexible),5090,3171.117,2.17813,25.76087,97.82076,0.01616595,0.7851624
+H (highly flexible),630,976.1399,7.075937,129.8832,275.9222,0.03275729,0.5646316

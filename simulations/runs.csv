@@ -1,0 +1,48 @@
+run_id,rule_base,strategy,construct,switch_day,plate_modulus_initial_MPa,plate_modulus_final_MPa,gap_element_size_mm,growth_reference_length_mm,initial_soft_tissue_modulus_MPa,analysis,element_fields
+reference_Rigid,reference rule base,Rigid,,,110000.0,110000.0,0.6,0.8,3.0,main,yes
+reference_Flex-M,reference rule base,Flexible,M,,5090.0,5090.0,0.6,0.8,3.0,main,yes
+reference_Flex-H,reference rule base,Flexible,H,,630.0,630.0,0.6,0.8,3.0,main,yes
+reference_Fwd-M15,reference rule base,Forward,M,15,110000.0,5090.0,0.6,0.8,3.0,main,yes
+reference_Fwd-M8,reference rule base,Forward,M,8,110000.0,5090.0,0.6,0.8,3.0,main,yes
+reference_Rev-M15,reference rule base,Reverse,M,15,5090.0,110000.0,0.6,0.8,3.0,main,yes
+reference_Rev-M8,reference rule base,Reverse,M,8,5090.0,110000.0,0.6,0.8,3.0,main,yes
+reference_Fwd-H15,reference rule base,Forward,H,15,110000.0,630.0,0.6,0.8,3.0,main,yes
+reference_Fwd-H8,reference rule base,Forward,H,8,110000.0,630.0,0.6,0.8,3.0,main,yes
+reference_Rev-H15,reference rule base,Reverse,H,15,630.0,110000.0,0.6,0.8,3.0,main,yes
+reference_Rev-H8,reference rule base,Reverse,H,8,630.0,110000.0,0.6,0.8,3.0,main,yes
+reference_Rigid_h0.45,reference rule base,Rigid,,,110000.0,110000.0,0.45,0.8,3.0,mesh refinement,no
+reference_Flex-M_h0.45,reference rule base,Flexible,M,,5090.0,5090.0,0.45,0.8,3.0,mesh refinement,no
+reference_Flex-H_h0.45,reference rule base,Flexible,H,,630.0,630.0,0.45,0.8,3.0,mesh refinement,no
+reference_Fwd-M15_h0.45,reference rule base,Forward,M,15,110000.0,5090.0,0.45,0.8,3.0,mesh refinement,no
+reference_Fwd-M8_h0.45,reference rule base,Forward,M,8,110000.0,5090.0,0.45,0.8,3.0,mesh refinement,no
+reference_Rev-M15_h0.45,reference rule base,Reverse,M,15,5090.0,110000.0,0.45,0.8,3.0,mesh refinement,no
+reference_Rev-M8_h0.45,reference rule base,Reverse,M,8,5090.0,110000.0,0.45,0.8,3.0,mesh refinement,no
+reference_Rigid_h0.35,reference rule base,Rigid,,,110000.0,110000.0,0.35,0.8,3.0,mesh refinement,no
+reference_Flex-M_h0.35,reference rule base,Flexible,M,,5090.0,5090.0,0.35,0.8,3.0,mesh refinement,no
+reference_Flex-H_h0.35,reference rule base,Flexible,H,,630.0,630.0,0.35,0.8,3.0,mesh refinement,no
+variant_Rigid,high-threshold variant,Rigid,,,110000.0,110000.0,0.6,0.8,3.0,main,yes
+variant_Flex-M,high-threshold variant,Flexible,M,,5090.0,5090.0,0.6,0.8,3.0,main,yes
+variant_Flex-H,high-threshold variant,Flexible,H,,630.0,630.0,0.6,0.8,3.0,main,yes
+variant_Fwd-M15,high-threshold variant,Forward,M,15,110000.0,5090.0,0.6,0.8,3.0,main,yes
+variant_Fwd-M8,high-threshold variant,Forward,M,8,110000.0,5090.0,0.6,0.8,3.0,main,yes
+variant_Rev-M15,high-threshold variant,Reverse,M,15,5090.0,110000.0,0.6,0.8,3.0,main,yes
+variant_Rev-M8,high-threshold variant,Reverse,M,8,5090.0,110000.0,0.6,0.8,3.0,main,yes
+variant_Fwd-H15,high-threshold variant,Forward,H,15,110000.0,630.0,0.6,0.8,3.0,main,yes
+variant_Fwd-H8,high-threshold variant,Forward,H,8,110000.0,630.0,0.6,0.8,3.0,main,yes
+variant_Rev-H15,high-threshold variant,Reverse,H,15,630.0,110000.0,0.6,0.8,3.0,main,yes
+variant_Rev-H8,high-threshold variant,Reverse,H,8,630.0,110000.0,0.6,0.8,3.0,main,yes
+variant_Rigid_h0.45,high-threshold variant,Rigid,,,110000.0,110000.0,0.45,0.8,3.0,mesh refinement,no
+variant_Flex-M_h0.45,high-threshold variant,Flexible,M,,5090.0,5090.0,0.45,0.8,3.0,mesh refinement,no
+variant_Flex-H_h0.45,high-threshold variant,Flexible,H,,630.0,630.0,0.45,0.8,3.0,mesh refinement,no
+reference_Rigid_lref0.6,reference rule base,Rigid,,,110000.0,110000.0,0.6,0.6,3.0,growth reference length,no
+reference_Rigid_lref1.0,reference rule base,Rigid,,,110000.0,110000.0,0.6,1.0,3.0,growth reference length,no
+reference_Rigid_Esoft1,reference rule base,Rigid,,,110000.0,110000.0,0.6,0.8,1.0,initial soft-tissue modulus,no
+reference_Flex-M_lref0.6,reference rule base,Flexible,M,,5090.0,5090.0,0.6,0.6,3.0,growth reference length,no
+reference_Flex-M_lref1.0,reference rule base,Flexible,M,,5090.0,5090.0,0.6,1.0,3.0,growth reference length,no
+reference_Flex-M_Esoft1,reference rule base,Flexible,M,,5090.0,5090.0,0.6,0.8,1.0,initial soft-tissue modulus,no
+reference_Fwd-M15_lref0.6,reference rule base,Forward,M,15,110000.0,5090.0,0.6,0.6,3.0,growth reference length,no
+reference_Fwd-M15_lref1.0,reference rule base,Forward,M,15,110000.0,5090.0,0.6,1.0,3.0,growth reference length,no
+reference_Fwd-M15_Esoft1,reference rule base,Forward,M,15,110000.0,5090.0,0.6,0.8,1.0,initial soft-tissue modulus,no
+reference_Rev-M15_lref0.6,reference rule base,Reverse,M,15,5090.0,110000.0,0.6,0.6,3.0,growth reference length,no
+reference_Rev-M15_lref1.0,reference rule base,Reverse,M,15,5090.0,110000.0,0.6,1.0,3.0,growth reference length,no
+reference_Rev-M15_Esoft1,reference rule base,Reverse,M,15,5090.0,110000.0,0.6,0.8,1.0,initial soft-tissue modulus,no

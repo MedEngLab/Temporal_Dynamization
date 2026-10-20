@@ -1,0 +1,55 @@
+measure,question,comparison,numerator_run_id,denominator_run_id,rule_base,delta,R_0.6mm,R_0.45mm,R_0.35mm,kind,mesh_bound,resolved,direction,robust
+eta,Flexible phase vs. rigid fixation,Flex-M / Rigid,reference_Flex-M,reference_Rigid,reference rule base,0.14407,2.4847,2.456,2.3761,paired,0.10861,True,1,True
+eta,Flexible phase vs. rigid fixation,Flex-M / Rigid,variant_Flex-M,variant_Rigid,high-threshold variant,0.052147,2.2674,2.2815,,paired,0.01411,True,1,True
+eta,Flexible phase vs. rigid fixation,Flex-H / Rigid,reference_Flex-H,reference_Rigid,reference rule base,0.14407,4.3563,4.6979,4.6814,paired,0.34163,True,1,True
+eta,Flexible phase vs. rigid fixation,Flex-H / Rigid,variant_Flex-H,variant_Rigid,high-threshold variant,0.052147,1.6434,1.5674,,paired,0.076003,True,1,True
+eta,Flexible phase vs. rigid fixation,Fwd-M15 / Rigid,reference_Fwd-M15,reference_Rigid,reference rule base,0.14407,2.3011,2.2006,,paired,0.10049,True,1,True
+eta,Flexible phase vs. rigid fixation,Fwd-M15 / Rigid,variant_Fwd-M15,variant_Rigid,high-threshold variant,0.052147,2.3291,,,unpaired,0.12146,True,1,True
+eta,Flexible phase vs. rigid fixation,Fwd-M8 / Rigid,reference_Fwd-M8,reference_Rigid,reference rule base,0.14407,2.3836,2.4189,,paired,0.035281,True,1,True
+eta,Flexible phase vs. rigid fixation,Fwd-M8 / Rigid,variant_Fwd-M8,variant_Rigid,high-threshold variant,0.052147,2.257,,,unpaired,0.1177,True,1,True
+eta,Flexible phase vs. rigid fixation,Fwd-H15 / Rigid,reference_Fwd-H15,reference_Rigid,reference rule base,0.14407,2.9942,,,unpaired,0.43138,True,1,True
+eta,Flexible phase vs. rigid fixation,Fwd-H15 / Rigid,variant_Fwd-H15,variant_Rigid,high-threshold variant,0.052147,3.2308,,,unpaired,0.16848,True,1,True
+eta,Flexible phase vs. rigid fixation,Fwd-H8 / Rigid,reference_Fwd-H8,reference_Rigid,reference rule base,0.14407,3.4089,,,unpaired,0.49113,True,1,True
+eta,Flexible phase vs. rigid fixation,Fwd-H8 / Rigid,variant_Fwd-H8,variant_Rigid,high-threshold variant,0.052147,1.6139,,,unpaired,0.08416,True,1,True
+eta,Flexible phase vs. rigid fixation,Rev-M15 / Rigid,reference_Rev-M15,reference_Rigid,reference rule base,0.14407,2.3364,2.2538,,paired,0.082599,True,1,True
+eta,Flexible phase vs. rigid fixation,Rev-M15 / Rigid,variant_Rev-M15,variant_Rigid,high-threshold variant,0.052147,1.6014,,,unpaired,0.083508,True,1,True
+eta,Flexible phase vs. rigid fixation,Rev-M8 / Rigid,reference_Rev-M8,reference_Rigid,reference rule base,0.14407,1.5373,1.3158,,paired,0.22148,True,1,True
+eta,Flexible phase vs. rigid fixation,Rev-M8 / Rigid,variant_Rev-M8,variant_Rigid,high-threshold variant,0.052147,1.4864,,,unpaired,0.077514,True,1,True
+eta,Flexible phase vs. rigid fixation,Rev-H15 / Rigid,reference_Rev-H15,reference_Rigid,reference rule base,0.14407,4.139,,,unpaired,0.59632,True,1,True
+eta,Flexible phase vs. rigid fixation,Rev-H15 / Rigid,variant_Rev-H15,variant_Rigid,high-threshold variant,0.052147,1.191,,,unpaired,0.062105,True,1,True
+eta,Flexible phase vs. rigid fixation,Rev-H8 / Rigid,reference_Rev-H8,reference_Rigid,reference rule base,0.14407,3.1783,,,unpaired,0.4579,True,1,False
+eta,Flexible phase vs. rigid fixation,Rev-H8 / Rigid,variant_Rev-H8,variant_Rigid,high-threshold variant,0.052147,0.99154,,,unpaired,0.051706,False,-1,False
+eta,Timing of the stiffness change,Rev-M15 / Flex-M,reference_Rev-M15,reference_Flex-M,reference rule base,0.14407,0.94031,0.91767,,paired,0.022642,True,-1,True
+eta,Timing of the stiffness change,Rev-M15 / Flex-M,variant_Rev-M15,variant_Flex-M,high-threshold variant,0.052147,0.70627,,,unpaired,0.03683,True,-1,True
+eta,Timing of the stiffness change,Rev-M8 / Flex-M,reference_Rev-M8,reference_Flex-M,reference rule base,0.14407,0.6187,0.53575,,paired,0.082948,True,-1,True
+eta,Timing of the stiffness change,Rev-M8 / Flex-M,variant_Rev-M8,variant_Flex-M,high-threshold variant,0.052147,0.65557,,,unpaired,0.034186,True,-1,True
+eta,Timing of the stiffness change,Rev-H15 / Flex-H,reference_Rev-H15,reference_Flex-H,reference rule base,0.14407,0.95012,,,unpaired,0.13689,False,-1,False
+eta,Timing of the stiffness change,Rev-H15 / Flex-H,variant_Rev-H15,variant_Flex-H,high-threshold variant,0.052147,0.72471,,,unpaired,0.037792,True,-1,False
+eta,Timing of the stiffness change,Rev-H8 / Flex-H,reference_Rev-H8,reference_Flex-H,reference rule base,0.14407,0.72958,,,unpaired,0.10511,True,-1,True
+eta,Timing of the stiffness change,Rev-H8 / Flex-H,variant_Rev-H8,variant_Flex-H,high-threshold variant,0.052147,0.60336,,,unpaired,0.031464,True,-1,True
+eta,Timing of the stiffness change,Fwd-M15 / Flex-M,reference_Fwd-M15,reference_Flex-M,reference rule base,0.14407,0.92613,0.89603,,paired,0.030093,True,-1,False
+eta,Timing of the stiffness change,Fwd-M15 / Flex-M,variant_Fwd-M15,variant_Flex-M,high-threshold variant,0.052147,1.0272,,,unpaired,0.053568,False,1,False
+eta,Timing of the stiffness change,Fwd-M8 / Flex-M,reference_Fwd-M8,reference_Flex-M,reference rule base,0.14407,0.95933,0.98491,,paired,0.025577,True,-1,False
+eta,Timing of the stiffness change,Fwd-M8 / Flex-M,variant_Fwd-M8,variant_Flex-M,high-threshold variant,0.052147,0.99542,,,unpaired,0.051909,False,-1,False
+eta,Timing of the stiffness change,Fwd-H15 / Flex-H,reference_Fwd-H15,reference_Flex-H,reference rule base,0.14407,0.68732,,,unpaired,0.099023,True,-1,False
+eta,Timing of the stiffness change,Fwd-H15 / Flex-H,variant_Fwd-H15,variant_Flex-H,high-threshold variant,0.052147,1.966,,,unpaired,0.10252,True,1,False
+eta,Timing of the stiffness change,Fwd-H8 / Flex-H,reference_Fwd-H8,reference_Flex-H,reference rule base,0.14407,0.78252,,,unpaired,0.11274,True,-1,False
+eta,Timing of the stiffness change,Fwd-H8 / Flex-H,variant_Fwd-H8,variant_Flex-H,high-threshold variant,0.052147,0.98207,,,unpaired,0.051212,False,-1,False
+eta,Timing of the stiffness change,Rev-M8 / Rev-M15,reference_Rev-M8,reference_Rev-M15,reference rule base,0.14407,0.65797,0.58382,,paired,0.074155,True,-1,True
+eta,Timing of the stiffness change,Rev-M8 / Rev-M15,variant_Rev-M8,variant_Rev-M15,high-threshold variant,0.052147,0.92821,,,unpaired,0.048404,True,-1,True
+eta,Timing of the stiffness change,Rev-H8 / Rev-H15,reference_Rev-H8,reference_Rev-H15,reference rule base,0.14407,0.76788,,,unpaired,0.11063,True,-1,True
+eta,Timing of the stiffness change,Rev-H8 / Rev-H15,variant_Rev-H8,variant_Rev-H15,high-threshold variant,0.052147,0.83256,,,unpaired,0.043416,True,-1,True
+eta,Timing of the stiffness change,Fwd-M8 / Fwd-M15,reference_Fwd-M8,reference_Fwd-M15,reference rule base,0.14407,1.0359,1.0992,,paired,0.063334,False,1,False
+eta,Timing of the stiffness change,Fwd-M8 / Fwd-M15,variant_Fwd-M8,variant_Fwd-M15,high-threshold variant,0.052147,0.96903,,,unpaired,0.050532,False,-1,False
+eta,Timing of the stiffness change,Fwd-H8 / Fwd-H15,reference_Fwd-H8,reference_Fwd-H15,reference rule base,0.14407,1.1385,,,unpaired,0.16403,False,1,False
+eta,Timing of the stiffness change,Fwd-H8 / Fwd-H15,variant_Fwd-H8,variant_Fwd-H15,high-threshold variant,0.052147,0.49954,,,unpaired,0.026049,True,-1,False
+eta,Highly vs. moderately flexible construct,Flex-H / Flex-M,reference_Flex-H,reference_Flex-M,reference rule base,0.14407,1.7533,1.9129,1.9702,paired,0.21695,True,1,False
+eta,Highly vs. moderately flexible construct,Flex-H / Flex-M,variant_Flex-H,variant_Flex-M,high-threshold variant,0.052147,0.72478,0.68699,,paired,0.037795,True,-1,False
+eta,Highly vs. moderately flexible construct,Fwd-H15 / Fwd-M15,reference_Fwd-H15,reference_Fwd-M15,reference rule base,0.14407,1.3012,,,unpaired,0.18746,True,1,True
+eta,Highly vs. moderately flexible construct,Fwd-H15 / Fwd-M15,variant_Fwd-H15,variant_Fwd-M15,high-threshold variant,0.052147,1.3871,,,unpaired,0.072334,True,1,True
+eta,Highly vs. moderately flexible construct,Fwd-H8 / Fwd-M8,reference_Fwd-H8,reference_Fwd-M8,reference rule base,0.14407,1.4301,,,unpaired,0.20604,True,1,False
+eta,Highly vs. moderately flexible construct,Fwd-H8 / Fwd-M8,variant_Fwd-H8,variant_Fwd-M8,high-threshold variant,0.052147,0.71506,,,unpaired,0.037288,True,-1,False
+eta,Highly vs. moderately flexible construct,Rev-H15 / Rev-M15,reference_Rev-H15,reference_Rev-M15,reference rule base,0.14407,1.7715,,,unpaired,0.25523,True,1,False
+eta,Highly vs. moderately flexible construct,Rev-H15 / Rev-M15,variant_Rev-H15,variant_Rev-M15,high-threshold variant,0.052147,0.7437,,,unpaired,0.038782,True,-1,False
+eta,Highly vs. moderately flexible construct,Rev-H8 / Rev-M8,reference_Rev-H8,reference_Rev-M8,reference rule base,0.14407,2.0675,,,unpaired,0.29786,True,1,False
+eta,Highly vs. moderately flexible construct,Rev-H8 / Rev-M8,variant_Rev-H8,variant_Rev-M8,high-threshold variant,0.052147,0.66706,,,unpaired,0.034785,True,-1,False

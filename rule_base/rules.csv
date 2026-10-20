@@ -1,0 +1,37 @@
+rule_base,rule,cartilage_fraction,bone_fraction,hydrostatic_strain,distortional_strain,perfusion,max_neighbor_perfusion,max_neighbor_bone_fraction,perfusion_change,bone_fraction_change,cartilage_fraction_change
+reference_rule_base,1,,,not negative destructive,,,,,no change,no change,no change
+reference_rule_base,2,,,not positive destructive,,,,,no change,no change,no change
+reference_rule_base,3,,,not negative high,not high,low,not low,,increase,,
+reference_rule_base,4,,,not negative high,not high,medium,high,,increase,,
+reference_rule_base,5,,,not negative high,not high,high,,,increase,,
+reference_rule_base,6,,,negative high,,,,,decrease,,
+reference_rule_base,7,low,,negative medium,medium,high,,not low,,intramembranous ossification,
+reference_rule_base,8,low,,positive medium,medium,high,,not low,,intramembranous ossification,
+reference_rule_base,9,low,not high,negative high,not destructive,,,,,,chondrogenesis
+reference_rule_base,10,not low,,negative high,not destructive,,,,,,chondrogenesis
+reference_rule_base,11,high,,negative medium,not destructive,,,,,,chondrogenesis
+reference_rule_base,12,not low,,negative medium,low,not low,,not low,,endochondral ossification,endochondral ossification
+reference_rule_base,13,not low,,negative high,low,not low,,not low,,endochondral ossification,endochondral ossification
+reference_rule_base,14,not low,,negative high,medium,not low,,not low,,endochondral ossification,endochondral ossification
+reference_rule_base,15,not low,,negative medium,medium,not low,,not low,,endochondral ossification,endochondral ossification
+reference_rule_base,16,low,high,negative medium,medium,not low,high,,,endochondral ossification,endochondral ossification
+reference_rule_base,17,low,high,negative medium,low,not low,high,,,endochondral ossification,endochondral ossification
+reference_rule_base,18,not low,,low,not destructive,not low,,not low,,endochondral ossification,endochondral ossification
+reference_rule_base,19,not low,,positive medium,not destructive,not low,,not low,,endochondral ossification,endochondral ossification
+high_threshold_variant,1,,,not negative destructive,,,,,no change,no change,no change
+high_threshold_variant,2,,,not positive destructive,,,,,no change,no change,no change
+high_threshold_variant,3,,,not negative high,not high,low,not low,,increase,,
+high_threshold_variant,4,,,not negative high,not high,medium,high,,increase,,
+high_threshold_variant,5,,,not negative high,not high,high,,,increase,,
+high_threshold_variant,6,,,negative high,,,,,decrease,,
+high_threshold_variant,7,low,,negative medium,medium,high,,not low,,intramembranous ossification,
+high_threshold_variant,8,low,,positive medium,medium,high,,not low,,intramembranous ossification,
+high_threshold_variant,9,low,not high,negative high,not destructive,,,,,,chondrogenesis
+high_threshold_variant,10,not low,,negative high,not destructive,,,,,,chondrogenesis
+high_threshold_variant,11,high,,negative medium,not destructive,,,,,,chondrogenesis
+high_threshold_variant,12,not low,,negative medium,low,not low,,not low,,endochondral ossification,endochondral ossification
+high_threshold_variant,13,not low,,negative high,low,not low,,not low,,endochondral ossification,endochondral ossification
+high_threshold_variant,14,not low,,negative high,medium,not low,,not low,,endochondral ossification,endochondral ossification
+high_threshold_variant,15,not low,,negative medium,medium,not low,,not low,,endochondral ossification,endochondral ossification
+high_threshold_variant,16,low,high,negative medium,medium,not low,high,,,endochondral ossification,endochondral ossification
+high_threshold_variant,17,low,high,negative medium,low,not low,high,,,endochondral ossification,endochondral ossification

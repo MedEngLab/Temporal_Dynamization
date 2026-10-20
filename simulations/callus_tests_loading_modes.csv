@@ -1,0 +1,257 @@
+run_id,day,loading_mode,load,load_unit,gap_motion,gap_motion_unit,stiffness,stiffness_unit,stiffness_bone_filled_gap,eta
+variant_Rigid,35,axial compression without tilt,234.8436,N,0.003411678,mm,68835.22,N/mm,2369768,0.02904724
+variant_Rigid,35,torsion,1000,N mm,0.0004304612,rad,2323090,N mm/rad,1.019107e+08,0.02279535
+variant_Rigid,35,bending in the plane of the plate (near-far),1000,N mm,-0.0004443253,rad,2250603,N mm/rad,1.32349e+08,0.01700507
+variant_Rigid,35,bending in the perpendicular plane,1000,N mm,-0.0002088644,rad,4787795,N mm/rad,1.317565e+08,0.03633822
+variant_Rigid,56,axial compression without tilt,241.673,N,0.003221447,mm,75020.01,N/mm,2369768,0.03165711
+variant_Rigid,56,torsion,1000,N mm,0.0003987025,rad,2508136,N mm/rad,1.019107e+08,0.02461112
+variant_Rigid,56,bending in the plane of the plate (near-far),1000,N mm,-0.000403259,rad,2479796,N mm/rad,1.32349e+08,0.0187368
+variant_Rigid,56,bending in the perpendicular plane,1000,N mm,-0.0001940432,rad,5153491,N mm/rad,1.317565e+08,0.03911376
+variant_Flex-M,35,axial compression without tilt,291.8324,N,0.001845397,mm,158140.7,N/mm,2369768,0.06673256
+variant_Flex-M,35,torsion,1000,N mm,0.0002767442,rad,3613445,N mm/rad,1.019107e+08,0.03545698
+variant_Flex-M,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001875175,rad,5332835,N mm/rad,1.32349e+08,0.04029374
+variant_Flex-M,35,bending in the perpendicular plane,1000,N mm,-0.0001280331,rad,7810479,N mm/rad,1.317565e+08,0.05927966
+variant_Flex-M,56,axial compression without tilt,292.4728,N,0.001828252,mm,159974,N/mm,2369768,0.06750618
+variant_Flex-M,56,torsion,1000,N mm,0.0002719579,rad,3677040,N mm/rad,1.019107e+08,0.03608101
+variant_Flex-M,56,bending in the plane of the plate (near-far),1000,N mm,-0.000181665,rad,5504636,N mm/rad,1.32349e+08,0.04159183
+variant_Flex-M,56,bending in the perpendicular plane,1000,N mm,-0.0001275463,rad,7840292,N mm/rad,1.317565e+08,0.05950593
+variant_Fwd-M15,35,axial compression without tilt,284.6178,N,0.002039368,mm,139561.7,N/mm,2369768,0.05889257
+variant_Fwd-M15,35,torsion,1000,N mm,0.0002570333,rad,3890546,N mm/rad,1.019107e+08,0.03817604
+variant_Fwd-M15,35,bending in the plane of the plate (near-far),1000,N mm,-0.0002275242,rad,4395136,N mm/rad,1.32349e+08,0.03320869
+variant_Fwd-M15,35,bending in the perpendicular plane,1000,N mm,-0.0001336049,rad,7484756,N mm/rad,1.317565e+08,0.0568075
+variant_Fwd-M15,56,axial compression without tilt,294.4688,N,0.001769899,mm,166376,N/mm,2369768,0.07020772
+variant_Fwd-M15,56,torsion,1000,N mm,0.0002241487,rad,4461325,N mm/rad,1.019107e+08,0.04377681
+variant_Fwd-M15,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001812793,rad,5516349,N mm/rad,1.32349e+08,0.04168032
+variant_Fwd-M15,56,bending in the perpendicular plane,1000,N mm,-0.0001218552,rad,8206463,N mm/rad,1.317565e+08,0.06228508
+variant_Rev-M15,35,axial compression without tilt,271.7248,N,0.002393478,mm,113527.2,N/mm,2369768,0.04790645
+variant_Rev-M15,35,torsion,1000,N mm,0.0003436135,rad,2910247,N mm/rad,1.019107e+08,0.02855683
+variant_Rev-M15,35,bending in the plane of the plate (near-far),1000,N mm,-0.0002582238,rad,3872610,N mm/rad,1.32349e+08,0.02926059
+variant_Rev-M15,35,bending in the perpendicular plane,1000,N mm,-0.0001571216,rad,6364498,N mm/rad,1.317565e+08,0.04830501
+variant_Rev-M15,56,axial compression without tilt,272.0423,N,0.002384714,mm,114077.5,N/mm,2369768,0.04813869
+variant_Rev-M15,56,torsion,1000,N mm,0.000338832,rad,2951315,N mm/rad,1.019107e+08,0.02895982
+variant_Rev-M15,56,bending in the plane of the plate (near-far),1000,N mm,-0.0002540837,rad,3935711,N mm/rad,1.32349e+08,0.02973737
+variant_Rev-M15,56,bending in the perpendicular plane,1000,N mm,-0.0001563979,rad,6393947,N mm/rad,1.317565e+08,0.04852852
+variant_Fwd-M8,35,axial compression without tilt,291.663,N,0.001850316,mm,157628.8,N/mm,2369768,0.06651654
+variant_Fwd-M8,35,torsion,1000,N mm,0.0002824515,rad,3540431,N mm/rad,1.019107e+08,0.03474053
+variant_Fwd-M8,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001902155,rad,5257194,N mm/rad,1.32349e+08,0.03972221
+variant_Fwd-M8,35,bending in the perpendicular plane,1000,N mm,-0.0001284466,rad,7785336,N mm/rad,1.317565e+08,0.05908883
+variant_Fwd-M8,56,axial compression without tilt,292.2309,N,0.001835141,mm,159241.7,N/mm,2369768,0.06719718
+variant_Fwd-M8,56,torsion,1000,N mm,0.0002780727,rad,3596182,N mm/rad,1.019107e+08,0.03528758
+variant_Fwd-M8,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001850145,rad,5404983,N mm/rad,1.32349e+08,0.04083887
+variant_Fwd-M8,56,bending in the perpendicular plane,1000,N mm,-0.0001280468,rad,7809647,N mm/rad,1.317565e+08,0.05927335
+variant_Rev-M8,35,axial compression without tilt,266.5707,N,0.002534049,mm,105195.5,N/mm,2369768,0.04439065
+variant_Rev-M8,35,torsion,1000,N mm,0.0003615068,rad,2766199,N mm/rad,1.019107e+08,0.02714337
+variant_Rev-M8,35,bending in the plane of the plate (near-far),1000,N mm,-0.0002884721,rad,3466540,N mm/rad,1.32349e+08,0.02619242
+variant_Rev-M8,35,bending in the perpendicular plane,1000,N mm,-0.0001624899,rad,6154229,N mm/rad,1.317565e+08,0.04670912
+variant_Rev-M8,56,axial compression without tilt,267.3118,N,0.002513793,mm,106338,N/mm,2369768,0.04487276
+variant_Rev-M8,56,torsion,1000,N mm,0.000356401,rad,2805828,N mm/rad,1.019107e+08,0.02753223
+variant_Rev-M8,56,bending in the plane of the plate (near-far),1000,N mm,-0.0002827675,rad,3536474,N mm/rad,1.32349e+08,0.02672082
+variant_Rev-M8,56,bending in the perpendicular plane,1000,N mm,-0.0001614913,rad,6192284,N mm/rad,1.317565e+08,0.04699795
+variant_Flex-H,35,axial compression without tilt,271.0544,N,0.00240832,mm,112549.1,N/mm,2369768,0.04749373
+variant_Flex-H,35,torsion,1000,N mm,0.0002247513,rad,4449363,N mm/rad,1.019107e+08,0.04365943
+variant_Flex-H,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001379182,rad,7250674,N mm/rad,1.32349e+08,0.0547845
+variant_Flex-H,35,bending in the perpendicular plane,1000,N mm,-0.0001238349,rad,8075265,N mm/rad,1.317565e+08,0.06128932
+variant_Flex-H,56,axial compression without tilt,273.1815,N,0.002350184,mm,116238.4,N/mm,2369768,0.04905053
+variant_Flex-H,56,torsion,1000,N mm,0.0002103036,rad,4755030,N mm/rad,1.019107e+08,0.0466588
+variant_Flex-H,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001265841,rad,7899885,N mm/rad,1.32349e+08,0.0596898
+variant_Flex-H,56,bending in the perpendicular plane,1000,N mm,-0.0001212271,rad,8248980,N mm/rad,1.317565e+08,0.06260778
+variant_Fwd-H15,35,axial compression without tilt,302.2482,N,0.001557605,mm,194046.7,N/mm,2369768,0.08188427
+variant_Fwd-H15,35,torsion,1000,N mm,0.0002003313,rad,4991731,N mm/rad,1.019107e+08,0.04898143
+variant_Fwd-H15,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001596662,rad,6263068,N mm/rad,1.32349e+08,0.04732237
+variant_Fwd-H15,35,bending in the perpendicular plane,1000,N mm,-0.0001094574,rad,9135978,N mm/rad,1.317565e+08,0.06933987
+variant_Fwd-H15,56,axial compression without tilt,309.6925,N,0.001355417,mm,228485.1,N/mm,2369768,0.09641665
+variant_Fwd-H15,56,torsion,1000,N mm,0.0001738854,rad,5750913,N mm/rad,1.019107e+08,0.05643091
+variant_Fwd-H15,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001233633,rad,8106136,N mm/rad,1.32349e+08,0.06124819
+variant_Fwd-H15,56,bending in the perpendicular plane,1000,N mm,-0.0001012077,rad,9880676,N mm/rad,1.317565e+08,0.07499196
+variant_Rev-H15,35,axial compression without tilt,249.8411,N,0.00298756,mm,83627.12,N/mm,2369768,0.03528916
+variant_Rev-H15,35,torsion,1000,N mm,0.000295456,rad,3384599,N mm/rad,1.019107e+08,0.03321143
+variant_Rev-H15,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001978916,rad,5053271,N mm/rad,1.32349e+08,0.03818141
+variant_Rev-H15,35,bending in the perpendicular plane,1000,N mm,-0.0001620709,rad,6170139,N mm/rad,1.317565e+08,0.04682987
+variant_Rev-H15,56,axial compression without tilt,250.4142,N,0.002971368,mm,84275.73,N/mm,2369768,0.03556286
+variant_Rev-H15,56,torsion,1000,N mm,0.0002863598,rad,3492111,N mm/rad,1.019107e+08,0.03426638
+variant_Rev-H15,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001924082,rad,5197284,N mm/rad,1.32349e+08,0.03926954
+variant_Rev-H15,56,bending in the perpendicular plane,1000,N mm,-0.0001598745,rad,6254905,N mm/rad,1.317565e+08,0.04747323
+variant_Fwd-H8,35,axial compression without tilt,271.3077,N,0.00240991,mm,112580,N/mm,2369768,0.04750676
+variant_Fwd-H8,35,torsion,1000,N mm,0.0003773868,rad,2649801,N mm/rad,1.019107e+08,0.02600121
+variant_Fwd-H8,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001544621,rad,6474082,N mm/rad,1.32349e+08,0.04891674
+variant_Fwd-H8,35,bending in the perpendicular plane,1000,N mm,-0.0001669488,rad,5989859,N mm/rad,1.317565e+08,0.04546159
+variant_Fwd-H8,56,axial compression without tilt,272.0668,N,0.002388711,mm,113896.9,N/mm,2369768,0.04806247
+variant_Fwd-H8,56,torsion,1000,N mm,0.000360094,rad,2777052,N mm/rad,1.019107e+08,0.02724987
+variant_Fwd-H8,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001490929,rad,6707229,N mm/rad,1.32349e+08,0.05067836
+variant_Fwd-H8,56,bending in the perpendicular plane,1000,N mm,-0.0001635255,rad,6115254,N mm/rad,1.317565e+08,0.04641331
+variant_Rev-H8,35,axial compression without tilt,235.0477,N,0.003388094,mm,69374.61,N/mm,2369768,0.02927485
+variant_Rev-H8,35,torsion,1000,N mm,0.0003491601,rad,2864016,N mm/rad,1.019107e+08,0.0281032
+variant_Rev-H8,35,bending in the plane of the plate (near-far),1000,N mm,-0.0002543554,rad,3931507,N mm/rad,1.32349e+08,0.02970561
+variant_Rev-H8,35,bending in the perpendicular plane,1000,N mm,-0.0001718897,rad,5817686,N mm/rad,1.317565e+08,0.04415484
+variant_Rev-H8,56,axial compression without tilt,236.5359,N,0.003346294,mm,70685.94,N/mm,2369768,0.02982821
+variant_Rev-H8,56,torsion,1000,N mm,0.0003347271,rad,2987508,N mm/rad,1.019107e+08,0.02931496
+variant_Rev-H8,56,bending in the plane of the plate (near-far),1000,N mm,-0.0002442994,rad,4093338,N mm/rad,1.32349e+08,0.03092837
+variant_Rev-H8,56,bending in the perpendicular plane,1000,N mm,-0.0001671507,rad,5982627,N mm/rad,1.317565e+08,0.0454067
+variant_Rigid_h0.45,35,axial compression without tilt,239.8841,N,0.003277609,mm,73188.76,N/mm,2370842,0.03087036
+variant_Rigid_h0.45,35,torsion,1000,N mm,0.0004218787,rad,2370350,N mm/rad,1.01928e+08,0.02325514
+variant_Rigid_h0.45,35,bending in the plane of the plate (near-far),1000,N mm,-0.0004437576,rad,2253483,N mm/rad,1.324025e+08,0.01701994
+variant_Rigid_h0.45,35,bending in the perpendicular plane,1000,N mm,-0.0001902808,rad,5255391,N mm/rad,1.318441e+08,0.03986063
+variant_Rigid_h0.45,56,axial compression without tilt,243.5393,N,0.003176885,mm,76659.75,N/mm,2370842,0.0323344
+variant_Rigid_h0.45,56,torsion,1000,N mm,0.0004087615,rad,2446414,N mm/rad,1.01928e+08,0.0240014
+variant_Rigid_h0.45,56,bending in the plane of the plate (near-far),1000,N mm,-0.0004212124,rad,2374099,N mm/rad,1.324025e+08,0.01793093
+variant_Rigid_h0.45,56,bending in the perpendicular plane,1000,N mm,-0.0001858428,rad,5380891,N mm/rad,1.318441e+08,0.04081251
+variant_Flex-M_h0.45,35,axial compression without tilt,293.6222,N,0.001802658,mm,162882.9,N/mm,2370842,0.06870255
+variant_Flex-M_h0.45,35,torsion,1000,N mm,0.0002724684,rad,3670150,N mm/rad,1.01928e+08,0.03600728
+variant_Flex-M_h0.45,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001972925,rad,5068617,N mm/rad,1.324025e+08,0.03828189
+variant_Flex-M_h0.45,35,bending in the perpendicular plane,1000,N mm,-0.0001245452,rad,8029215,N mm/rad,1.318441e+08,0.06089929
+variant_Flex-M_h0.45,56,axial compression without tilt,294.346,N,0.001782664,mm,165115.8,N/mm,2370842,0.06964438
+variant_Flex-M_h0.45,56,torsion,1000,N mm,0.0002681172,rad,3729713,N mm/rad,1.01928e+08,0.03659164
+variant_Flex-M_h0.45,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001917191,rad,5215964,N mm/rad,1.324025e+08,0.03939476
+variant_Flex-M_h0.45,56,bending in the perpendicular plane,1000,N mm,-0.0001230302,rad,8128085,N mm/rad,1.318441e+08,0.06164919
+variant_Flex-H_h0.45,35,axial compression without tilt,269.6857,N,0.002452233,mm,109975.6,N/mm,2370842,0.04638671
+variant_Flex-H_h0.45,35,torsion,1000,N mm,0.00023942,rad,4176760,N mm/rad,1.01928e+08,0.04097756
+variant_Flex-H_h0.45,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001506993,rad,6635732,N mm/rad,1.324025e+08,0.05011788
+variant_Flex-H_h0.45,35,bending in the perpendicular plane,1000,N mm,-0.0001249133,rad,8005555,N mm/rad,1.318441e+08,0.06071984
+variant_Flex-H_h0.45,56,axial compression without tilt,271.9497,N,0.002389835,mm,113794.3,N/mm,2370842,0.04799742
+variant_Flex-H_h0.45,56,torsion,1000,N mm,0.0002246452,rad,4451464,N mm/rad,1.01928e+08,0.04367264
+variant_Flex-H_h0.45,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001380962,rad,7241328,N mm/rad,1.324025e+08,0.05469179
+variant_Flex-H_h0.45,56,bending in the perpendicular plane,1000,N mm,-0.0001210508,rad,8260994,N mm/rad,1.318441e+08,0.06265727
+reference_Rigid,35,axial compression without tilt,257.0607,N,0.002796136,mm,91934.27,N/mm,2369768,0.03879463
+reference_Rigid,35,torsion,1000,N mm,0.0003261453,rad,3066119,N mm/rad,1.019107e+08,0.03008633
+reference_Rigid,35,bending in the plane of the plate (near-far),1000,N mm,-0.0002908742,rad,3437912,N mm/rad,1.32349e+08,0.02597611
+reference_Rigid,35,bending in the perpendicular plane,1000,N mm,-0.000167273,rad,5978251,N mm/rad,1.317565e+08,0.04537349
+reference_Rigid,56,axial compression without tilt,257.7435,N,0.002777415,mm,92799.77,N/mm,2369768,0.03915986
+reference_Rigid,56,torsion,1000,N mm,0.0003238902,rad,3087466,N mm/rad,1.019107e+08,0.0302958
+reference_Rigid,56,bending in the plane of the plate (near-far),1000,N mm,-0.0002866569,rad,3488491,N mm/rad,1.32349e+08,0.02635827
+reference_Rigid,56,bending in the perpendicular plane,1000,N mm,-0.0001666465,rad,6000725,N mm/rad,1.317565e+08,0.04554406
+reference_Flex-M,35,axial compression without tilt,308.2861,N,0.001388586,mm,222014.3,N/mm,2369768,0.0936861
+reference_Flex-M,35,torsion,1000,N mm,0.0001572562,rad,6359052,N mm/rad,1.019107e+08,0.06239828
+reference_Flex-M,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001023995,rad,9765671,N mm/rad,1.32349e+08,0.07378727
+reference_Flex-M,35,bending in the perpendicular plane,1000,N mm,-9.507643e-05,rad,1.051785e+07,N mm/rad,1.317565e+08,0.07982799
+reference_Flex-M,56,axial compression without tilt,308.3023,N,0.001388162,mm,222093.9,N/mm,2369768,0.09371968
+reference_Flex-M,56,torsion,1000,N mm,0.0001571969,rad,6361447,N mm/rad,1.019107e+08,0.06242179
+reference_Flex-M,56,bending in the plane of the plate (near-far),1000,N mm,-0.000102305,rad,9774694,N mm/rad,1.32349e+08,0.07385544
+reference_Flex-M,56,bending in the perpendicular plane,1000,N mm,-9.507329e-05,rad,1.05182e+07,N mm/rad,1.317565e+08,0.07983062
+reference_Fwd-M15,35,axial compression without tilt,303.0517,N,0.001534023,mm,197553.6,N/mm,2369768,0.08336411
+reference_Fwd-M15,35,torsion,1000,N mm,0.0001835248,rad,5448856,N mm/rad,1.019107e+08,0.05346698
+reference_Fwd-M15,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001344033,rad,7440294,N mm/rad,1.32349e+08,0.05621723
+reference_Fwd-M15,35,bending in the perpendicular plane,1000,N mm,-0.0001064659,rad,9392682,N mm/rad,1.317565e+08,0.0712882
+reference_Fwd-M15,56,axial compression without tilt,305.0222,N,0.001481283,mm,205917.6,N/mm,2369768,0.08689355
+reference_Fwd-M15,56,torsion,1000,N mm,0.0001772115,rad,5642976,N mm/rad,1.019107e+08,0.05537178
+reference_Fwd-M15,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001240851,rad,8058983,N mm/rad,1.32349e+08,0.06089191
+reference_Fwd-M15,56,bending in the perpendicular plane,1000,N mm,-0.0001055849,rad,9471053,N mm/rad,1.317565e+08,0.07188302
+reference_Rev-M15,35,axial compression without tilt,305.6173,N,0.001459886,mm,209343.2,N/mm,2369768,0.0883391
+reference_Rev-M15,35,torsion,1000,N mm,0.0001640582,rad,6095396,N mm/rad,1.019107e+08,0.05981116
+reference_Rev-M15,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001117256,rad,8950497,N mm/rad,1.32349e+08,0.06762799
+reference_Rev-M15,35,bending in the perpendicular plane,1000,N mm,-9.621829e-05,rad,1.039303e+07,N mm/rad,1.317565e+08,0.07888063
+reference_Rev-M15,56,axial compression without tilt,305.6173,N,0.001459886,mm,209343.2,N/mm,2369768,0.08833911
+reference_Rev-M15,56,torsion,1000,N mm,0.0001640582,rad,6095397,N mm/rad,1.019107e+08,0.05981117
+reference_Rev-M15,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001117256,rad,8950498,N mm/rad,1.32349e+08,0.067628
+reference_Rev-M15,56,bending in the perpendicular plane,1000,N mm,-9.621829e-05,rad,1.039303e+07,N mm/rad,1.317565e+08,0.07888064
+reference_Fwd-M8,35,axial compression without tilt,306.4279,N,0.001440004,mm,212796.5,N/mm,2369768,0.08979636
+reference_Fwd-M8,35,torsion,1000,N mm,0.0001673126,rad,5976836,N mm/rad,1.019107e+08,0.05864779
+reference_Fwd-M8,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001102666,rad,9068928,N mm/rad,1.32349e+08,0.06852283
+reference_Fwd-M8,35,bending in the perpendicular plane,1000,N mm,-9.869425e-05,rad,1.01323e+07,N mm/rad,1.317565e+08,0.07690174
+reference_Fwd-M8,56,axial compression without tilt,306.4386,N,0.001439722,mm,212845.8,N/mm,2369768,0.08981713
+reference_Fwd-M8,56,torsion,1000,N mm,0.0001672716,rad,5978300,N mm/rad,1.019107e+08,0.05866215
+reference_Fwd-M8,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001101974,rad,9074624,N mm/rad,1.32349e+08,0.06856587
+reference_Fwd-M8,56,bending in the perpendicular plane,1000,N mm,-9.869216e-05,rad,1.013252e+07,N mm/rad,1.317565e+08,0.07690337
+reference_Rev-M8,35,axial compression without tilt,284.5889,N,0.002034746,mm,139864.6,N/mm,2369768,0.05902038
+reference_Rev-M8,35,torsion,1000,N mm,0.0002216844,rad,4510917,N mm/rad,1.019107e+08,0.04426343
+reference_Rev-M8,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001731557,rad,5775148,N mm/rad,1.32349e+08,0.04363575
+reference_Rev-M8,35,bending in the perpendicular plane,1000,N mm,-0.0001196782,rad,8355739,N mm/rad,1.317565e+08,0.06341805
+reference_Rev-M8,56,axial compression without tilt,284.5961,N,0.002034552,mm,139881.4,N/mm,2369768,0.05902749
+reference_Rev-M8,56,torsion,1000,N mm,0.0002216655,rad,4511301,N mm/rad,1.019107e+08,0.04426721
+reference_Rev-M8,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001731202,rad,5776335,N mm/rad,1.32349e+08,0.04364472
+reference_Rev-M8,56,bending in the perpendicular plane,1000,N mm,-0.0001196733,rad,8356080,N mm/rad,1.317565e+08,0.06342064
+reference_Flex-H,35,axial compression without tilt,327.7522,N,0.0008449594,mm,387891,N/mm,2369768,0.1636831
+reference_Flex-H,35,torsion,1000,N mm,9.525668e-05,rad,1.049795e+07,N mm/rad,1.019107e+08,0.1030113
+reference_Flex-H,35,bending in the plane of the plate (near-far),1000,N mm,-6.167633e-05,rad,1.621367e+07,N mm/rad,1.32349e+08,0.122507
+reference_Flex-H,35,bending in the perpendicular plane,1000,N mm,-5.283264e-05,rad,1.892769e+07,N mm/rad,1.317565e+08,0.1436567
+reference_Flex-H,56,axial compression without tilt,327.754,N,0.0008449094,mm,387916.2,N/mm,2369768,0.1636937
+reference_Flex-H,56,torsion,1000,N mm,9.525004e-05,rad,1.049868e+07,N mm/rad,1.019107e+08,0.1030185
+reference_Flex-H,56,bending in the plane of the plate (near-far),1000,N mm,-6.166545e-05,rad,1.621654e+07,N mm/rad,1.32349e+08,0.1225286
+reference_Flex-H,56,bending in the perpendicular plane,1000,N mm,-5.283139e-05,rad,1.892814e+07,N mm/rad,1.317565e+08,0.14366
+reference_Fwd-H15,35,axial compression without tilt,314.5252,N,0.001220257,mm,257753.2,N/mm,2369768,0.1087673
+reference_Fwd-H15,35,torsion,1000,N mm,0.0001471094,rad,6797663,N mm/rad,1.019107e+08,0.06670217
+reference_Fwd-H15,35,bending in the plane of the plate (near-far),1000,N mm,-0.000103048,rad,9704214,N mm/rad,1.32349e+08,0.07332292
+reference_Fwd-H15,35,bending in the perpendicular plane,1000,N mm,-8.798582e-05,rad,1.136547e+07,N mm/rad,1.317565e+08,0.08626117
+reference_Fwd-H15,56,axial compression without tilt,315.8988,N,0.001183861,mm,266837.8,N/mm,2369768,0.1126008
+reference_Fwd-H15,56,torsion,1000,N mm,0.0001421818,rad,7033249,N mm/rad,1.019107e+08,0.06901386
+reference_Fwd-H15,56,bending in the plane of the plate (near-far),1000,N mm,-9.504363e-05,rad,1.052148e+07,N mm/rad,1.32349e+08,0.07949803
+reference_Fwd-H15,56,bending in the perpendicular plane,1000,N mm,-8.746288e-05,rad,1.143342e+07,N mm/rad,1.317565e+08,0.08677693
+reference_Rev-H15,35,axial compression without tilt,326.2753,N,0.0008845772,mm,368848.9,N/mm,2369768,0.1556477
+reference_Rev-H15,35,torsion,1000,N mm,9.849324e-05,rad,1.015298e+07,N mm/rad,1.019107e+08,0.09962626
+reference_Rev-H15,35,bending in the plane of the plate (near-far),1000,N mm,-6.548271e-05,rad,1.527121e+07,N mm/rad,1.32349e+08,0.1153859
+reference_Rev-H15,35,bending in the perpendicular plane,1000,N mm,-5.411113e-05,rad,1.848049e+07,N mm/rad,1.317565e+08,0.1402624
+reference_Rev-H15,56,axial compression without tilt,326.2753,N,0.0008845772,mm,368848.9,N/mm,2369768,0.1556477
+reference_Rev-H15,56,torsion,1000,N mm,9.849324e-05,rad,1.015298e+07,N mm/rad,1.019107e+08,0.09962626
+reference_Rev-H15,56,bending in the plane of the plate (near-far),1000,N mm,-6.548271e-05,rad,1.527121e+07,N mm/rad,1.32349e+08,0.1153859
+reference_Rev-H15,56,bending in the perpendicular plane,1000,N mm,-5.411113e-05,rad,1.848049e+07,N mm/rad,1.317565e+08,0.1402624
+reference_Fwd-H8,35,axial compression without tilt,320.3385,N,0.001056029,mm,303342.5,N/mm,2369768,0.1280052
+reference_Fwd-H8,35,torsion,1000,N mm,0.0001139233,rad,8777839,N mm/rad,1.019107e+08,0.08613266
+reference_Fwd-H8,35,bending in the plane of the plate (near-far),1000,N mm,-7.032474e-05,rad,1.421975e+07,N mm/rad,1.32349e+08,0.1074413
+reference_Fwd-H8,35,bending in the perpendicular plane,1000,N mm,-6.948277e-05,rad,1.439206e+07,N mm/rad,1.317565e+08,0.1092323
+reference_Fwd-H8,56,axial compression without tilt,320.3385,N,0.001056028,mm,303342.9,N/mm,2369768,0.1280053
+reference_Fwd-H8,56,torsion,1000,N mm,0.0001139232,rad,8777844,N mm/rad,1.019107e+08,0.08613272
+reference_Fwd-H8,56,bending in the plane of the plate (near-far),1000,N mm,-7.032467e-05,rad,1.421976e+07,N mm/rad,1.32349e+08,0.1074414
+reference_Fwd-H8,56,bending in the perpendicular plane,1000,N mm,-6.948275e-05,rad,1.439206e+07,N mm/rad,1.317565e+08,0.1092323
+reference_Rev-H8,35,axial compression without tilt,317.8078,N,0.001115445,mm,284915.7,N/mm,2369768,0.1202293
+reference_Rev-H8,35,torsion,1000,N mm,0.0001246697,rad,8021198,N mm/rad,1.019107e+08,0.07870811
+reference_Rev-H8,35,bending in the plane of the plate (near-far),1000,N mm,-9.365872e-05,rad,1.067706e+07,N mm/rad,1.32349e+08,0.08067354
+reference_Rev-H8,35,bending in the perpendicular plane,1000,N mm,-6.48435e-05,rad,1.542175e+07,N mm/rad,1.317565e+08,0.1170473
+reference_Rev-H8,56,axial compression without tilt,317.8082,N,0.001115435,mm,284918.5,N/mm,2369768,0.1202305
+reference_Rev-H8,56,torsion,1000,N mm,0.000124669,rad,8021243,N mm/rad,1.019107e+08,0.07870856
+reference_Rev-H8,56,bending in the plane of the plate (near-far),1000,N mm,-9.3657e-05,rad,1.067726e+07,N mm/rad,1.32349e+08,0.08067502
+reference_Rev-H8,56,bending in the perpendicular plane,1000,N mm,-6.484326e-05,rad,1.54218e+07,N mm/rad,1.317565e+08,0.1170478
+reference_Rigid_h0.45,35,axial compression without tilt,260.796,N,0.002698671,mm,96638.68,N/mm,2370842,0.04076133
+reference_Rigid_h0.45,35,torsion,1000,N mm,0.0002899102,rad,3449344,N mm/rad,1.01928e+08,0.03384099
+reference_Rigid_h0.45,35,bending in the plane of the plate (near-far),1000,N mm,-0.0002669069,rad,3746624,N mm/rad,1.324025e+08,0.02829724
+reference_Rigid_h0.45,35,bending in the perpendicular plane,1000,N mm,-0.0001478028,rad,6765770,N mm/rad,1.318441e+08,0.05131642
+reference_Rigid_h0.45,56,axial compression without tilt,261.0514,N,0.002691678,mm,96984.64,N/mm,2370842,0.04090725
+reference_Rigid_h0.45,56,torsion,1000,N mm,0.0002892202,rad,3457573,N mm/rad,1.01928e+08,0.03392173
+reference_Rigid_h0.45,56,bending in the plane of the plate (near-far),1000,N mm,-0.0002654821,rad,3766732,N mm/rad,1.324025e+08,0.0284491
+reference_Rigid_h0.45,56,bending in the perpendicular plane,1000,N mm,-0.0001476065,rad,6774769,N mm/rad,1.318441e+08,0.05138468
+reference_Flex-M_h0.45,35,axial compression without tilt,310.0047,N,0.001351134,mm,229440.5,N/mm,2370842,0.09677594
+reference_Flex-M_h0.45,35,torsion,1000,N mm,0.0001439237,rad,6948124,N mm/rad,1.01928e+08,0.06816698
+reference_Flex-M_h0.45,35,bending in the plane of the plate (near-far),1000,N mm,-8.925676e-05,rad,1.120363e+07,N mm/rad,1.324025e+08,0.08461801
+reference_Flex-M_h0.45,35,bending in the perpendicular plane,1000,N mm,-9.36978e-05,rad,1.067261e+07,N mm/rad,1.318441e+08,0.08094868
+reference_Flex-M_h0.45,56,axial compression without tilt,310.0182,N,0.001350763,mm,229513.4,N/mm,2370842,0.09680669
+reference_Flex-M_h0.45,56,torsion,1000,N mm,0.0001438685,rad,6950792,N mm/rad,1.01928e+08,0.06819317
+reference_Flex-M_h0.45,56,bending in the plane of the plate (near-far),1000,N mm,-8.920056e-05,rad,1.121069e+07,N mm/rad,1.324025e+08,0.08467132
+reference_Flex-M_h0.45,56,bending in the perpendicular plane,1000,N mm,-9.367495e-05,rad,1.067521e+07,N mm/rad,1.318441e+08,0.08096843
+reference_Flex-H_h0.45,35,axial compression without tilt,331.2612,N,0.0007581247,mm,436948.2,N/mm,2370842,0.1843008
+reference_Flex-H_h0.45,35,torsion,1000,N mm,8.583022e-05,rad,1.165091e+07,N mm/rad,1.01928e+08,0.1143053
+reference_Flex-H_h0.45,35,bending in the plane of the plate (near-far),1000,N mm,-5.710979e-05,rad,1.751013e+07,N mm/rad,1.324025e+08,0.1322493
+reference_Flex-H_h0.45,35,bending in the perpendicular plane,1000,N mm,-4.853627e-05,rad,2.060315e+07,N mm/rad,1.318441e+08,0.156269
+reference_Flex-H_h0.45,56,axial compression without tilt,331.2622,N,0.0007580957,mm,436966.2,N/mm,2370842,0.1843085
+reference_Flex-H_h0.45,56,torsion,1000,N mm,8.582698e-05,rad,1.165135e+07,N mm/rad,1.01928e+08,0.1143096
+reference_Flex-H_h0.45,56,bending in the plane of the plate (near-far),1000,N mm,-5.710472e-05,rad,1.751169e+07,N mm/rad,1.324025e+08,0.132261
+reference_Flex-H_h0.45,56,bending in the perpendicular plane,1000,N mm,-4.853467e-05,rad,2.060383e+07,N mm/rad,1.318441e+08,0.1562741
+reference_Rev-M15_h0.45,35,axial compression without tilt,306.3588,N,0.001450288,mm,211240,N/mm,2370842,0.08909915
+reference_Rev-M15_h0.45,35,torsion,1000,N mm,0.0001550038,rad,6451455,N mm/rad,1.01928e+08,0.06329424
+reference_Rev-M15_h0.45,35,bending in the plane of the plate (near-far),1000,N mm,-0.000101567,rad,9845721,N mm/rad,1.324025e+08,0.07436207
+reference_Rev-M15_h0.45,35,bending in the perpendicular plane,1000,N mm,-9.689712e-05,rad,1.032022e+07,N mm/rad,1.318441e+08,0.07827594
+reference_Rev-M15_h0.45,56,axial compression without tilt,306.3595,N,0.00145027,mm,211243,N/mm,2370842,0.08910041
+reference_Rev-M15_h0.45,56,torsion,1000,N mm,0.000155001,rad,6451573,N mm/rad,1.01928e+08,0.0632954
+reference_Rev-M15_h0.45,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001015649,rad,9845918,N mm/rad,1.324025e+08,0.07436355
+reference_Rev-M15_h0.45,56,bending in the perpendicular plane,1000,N mm,-9.689503e-05,rad,1.032045e+07,N mm/rad,1.318441e+08,0.07827763
+reference_Fwd-M15_h0.45,35,axial compression without tilt,303.4859,N,0.001527769,mm,198646.4,N/mm,2370842,0.0837873
+reference_Fwd-M15_h0.45,35,torsion,1000,N mm,0.0001706457,rad,5860094,N mm/rad,1.01928e+08,0.05749249
+reference_Fwd-M15_h0.45,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001257557,rad,7951927,N mm/rad,1.324025e+08,0.06005875
+reference_Fwd-M15_h0.45,35,bending in the perpendicular plane,1000,N mm,-9.965953e-05,rad,1.003416e+07,N mm/rad,1.318441e+08,0.07610625
+reference_Fwd-M15_h0.45,56,axial compression without tilt,305.183,N,0.00148225,mm,205891.8,N/mm,2370842,0.08684332
+reference_Fwd-M15_h0.45,56,torsion,1000,N mm,0.0001658459,rad,6029694,N mm/rad,1.01928e+08,0.05915641
+reference_Fwd-M15_h0.45,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001178113,rad,8488150,N mm/rad,1.324025e+08,0.0641087
+reference_Fwd-M15_h0.45,56,bending in the perpendicular plane,1000,N mm,-9.898704e-05,rad,1.010233e+07,N mm/rad,1.318441e+08,0.07662329
+reference_Rev-M8_h0.45,35,axial compression without tilt,278.4482,N,0.002213952,mm,125769.7,N/mm,2370842,0.05304855
+reference_Rev-M8_h0.45,35,torsion,1000,N mm,0.0002281956,rad,4382205,N mm/rad,1.01928e+08,0.04299315
+reference_Rev-M8_h0.45,35,bending in the plane of the plate (near-far),1000,N mm,-0.0001792821,rad,5577803,N mm/rad,1.324025e+08,0.04212763
+reference_Rev-M8_h0.45,35,bending in the perpendicular plane,1000,N mm,-0.000126751,rad,7889482,N mm/rad,1.318441e+08,0.05983946
+reference_Rev-M8_h0.45,56,axial compression without tilt,278.5395,N,0.002211417,mm,125955.2,N/mm,2370842,0.05312678
+reference_Rev-M8_h0.45,56,torsion,1000,N mm,0.0002279578,rad,4386778,N mm/rad,1.01928e+08,0.04303801
+reference_Rev-M8_h0.45,56,bending in the plane of the plate (near-far),1000,N mm,-0.0001788706,rad,5590632,N mm/rad,1.324025e+08,0.04222453
+reference_Rev-M8_h0.45,56,bending in the perpendicular plane,1000,N mm,-0.0001266343,rad,7896756,N mm/rad,1.318441e+08,0.05989463
+reference_Fwd-M8_h0.45,35,axial compression without tilt,309.2395,N,0.001369732,mm,225766.3,N/mm,2370842,0.09522623
+reference_Fwd-M8_h0.45,35,torsion,1000,N mm,0.0001513284,rad,6608145,N mm/rad,1.01928e+08,0.06483151
+reference_Fwd-M8_h0.45,35,bending in the plane of the plate (near-far),1000,N mm,-9.993802e-05,rad,1.00062e+07,N mm/rad,1.324025e+08,0.07557413
+reference_Fwd-M8_h0.45,35,bending in the perpendicular plane,1000,N mm,-9.09316e-05,rad,1.099728e+07,N mm/rad,1.318441e+08,0.08341119
+reference_Fwd-M8_h0.45,56,axial compression without tilt,309.251,N,0.001369422,mm,225825.8,N/mm,2370842,0.09525132
+reference_Fwd-M8_h0.45,56,torsion,1000,N mm,0.0001512853,rad,6610025,N mm/rad,1.01928e+08,0.06484995
+reference_Fwd-M8_h0.45,56,bending in the plane of the plate (near-far),1000,N mm,-9.987689e-05,rad,1.001233e+07,N mm/rad,1.324025e+08,0.07562039
+reference_Fwd-M8_h0.45,56,bending in the perpendicular plane,1000,N mm,-9.092358e-05,rad,1.099825e+07,N mm/rad,1.318441e+08,0.08341855

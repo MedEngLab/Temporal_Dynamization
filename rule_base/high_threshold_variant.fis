@@ -1,0 +1,119 @@
+[System]
+Name='high_threshold_variant'
+Type='mamdani'
+Version=2.0
+NumInputs=7
+NumOutputs=3
+NumRules=17
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='cartilage_fraction'
+Range=[0 1]
+NumMFs=3
+MF1='low':'trapmf',[0 0 0.25 0.5]
+MF2='medium':'trimf',[0.25 0.5 0.75]
+MF3='high':'trapmf',[0.5 0.75 1 1]
+
+[Input2]
+Name='bone_fraction'
+Range=[0 1]
+NumMFs=3
+MF1='low':'trapmf',[0 0 0.25 0.5]
+MF2='medium':'trimf',[0.25 0.5 0.75]
+MF3='high':'trapmf',[0.5 0.75 1 1]
+
+[Input3]
+Name='hydrostatic_strain'
+Range=[-0.1 0.1]
+NumMFs=6
+MF1='negative destructive':'trapmf',[-0.1 -0.1 -0.05 -0.02]
+MF2='negative high':'trapmf',[-0.05 -0.02 -0.01 -0.008]
+MF3='negative medium':'trapmf',[-0.01 -0.008 -0.001 -0.0001]
+MF4='low':'trapmf',[-0.001 -0.0001 0.0001 0.001]
+MF5='positive medium':'trapmf',[0.0001 0.001 0.02 0.05]
+MF6='positive destructive':'trapmf',[0.02 0.05 0.1 0.1]
+
+[Input4]
+Name='distortional_strain'
+Range=[0 0.2]
+NumMFs=4
+MF1='low':'trapmf',[0 0 0.0001 0.001]
+MF2='medium':'trapmf',[0.0001 0.001 0.05 0.06]
+MF3='high':'trapmf',[0.05 0.06 0.15 0.17]
+MF4='destructive':'trapmf',[0.15 0.17 1 1]
+
+[Input5]
+Name='perfusion'
+Range=[0 1]
+NumMFs=3
+MF1='low':'trapmf',[0 0 0.2 0.4]
+MF2='medium':'trapmf',[0.2 0.4 0.6 0.8]
+MF3='high':'trapmf',[0.6 0.8 1 1]
+
+[Input6]
+Name='max_neighbor_perfusion'
+Range=[0 1]
+NumMFs=3
+MF1='low':'trapmf',[0 0 0.2 0.4]
+MF2='medium':'trapmf',[0.2 0.4 0.6 0.8]
+MF3='high':'trapmf',[0.6 0.8 1 1]
+
+[Input7]
+Name='max_neighbor_bone_fraction'
+Range=[0 1]
+NumMFs=3
+MF1='low':'trapmf',[0 0 0.25 0.5]
+MF2='medium':'trimf',[0.25 0.5 0.75]
+MF3='high':'trapmf',[0.5 0.75 1 1]
+
+[Output1]
+Name='perfusion_change'
+Range=[-1 1]
+NumMFs=3
+MF1='decrease':'trapmf',[-1 -1 -0.75 -0.25]
+MF2='no change':'trapmf',[-0.75 -0.25 0.25 0.75]
+MF3='increase':'trapmf',[0.25 0.75 1 1]
+
+[Output2]
+Name='bone_fraction_change'
+Range=[-1.5 0.3]
+NumMFs=5
+MF1='no change':'trimf',[-0.1 0 0.1]
+MF2='endochondral ossification':'trimf',[0.2 0.3 0.4]
+MF3='bone destruction':'trimf',[-1.5 -1 -0.5]
+MF4='intramembranous ossification':'trimf',[0.1 0.2 0.3]
+MF5='atrophy':'trimf',[-0.5 -0.4 -0.3]
+
+[Output3]
+Name='cartilage_fraction_change'
+Range=[-2.5 0.7]
+NumMFs=5
+MF1='cartilage destruction':'trimf',[-2.5 -2 -1.5]
+MF2='no change':'trimf',[-0.05 0 0.05]
+MF3='chondrogenesis':'trimf',[0.3 0.5 0.7]
+MF4='atrophy':'trimf',[-1.2 -0.8 -0.4]
+MF5='endochondral ossification':'trimf',[-0.4 -0.3 -0.2]
+
+[Rules]
+0 0 -1 0 0 0 0, 2 1 2 (1) : 1
+0 0 -6 0 0 0 0, 2 1 2 (1) : 1
+0 0 -2 -3 1 -1 0, 3 0 0 (1) : 1
+0 0 -2 -3 2 3 0, 3 0 0 (1) : 1
+0 0 -2 -3 3 0 0, 3 0 0 (1) : 1
+0 0 2 0 0 0 0, 1 0 0 (1) : 1
+1 0 3 2 3 0 -1, 0 4 0 (1) : 1
+1 0 5 2 3 0 -1, 0 4 0 (1) : 1
+1 -3 2 -4 0 0 0, 0 0 3 (1) : 1
+-1 0 2 -4 0 0 0, 0 0 3 (1) : 1
+3 0 3 -4 0 0 0, 0 0 3 (1) : 1
+-1 0 3 1 -1 0 -1, 0 2 5 (1) : 1
+-1 0 2 1 -1 0 -1, 0 2 5 (1) : 1
+-1 0 2 2 -1 0 -1, 0 2 5 (1) : 1
+-1 0 3 2 -1 0 -1, 0 2 5 (1) : 1
+1 3 3 2 -1 3 0, 0 2 5 (1) : 1
+1 3 3 1 -1 3 0, 0 2 5 (1) : 1

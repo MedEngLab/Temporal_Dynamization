@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the article and the dataset."
+title: "Forward and reverse dynamization of a locking plate construct: simulation output data and rule base"
+type: dataset
+license: CC-BY-4.0
+version: "1.0"
+date-released: "2026-00-00"
+authors:
+  - family-names: "[Family name]"
+    given-names: "[Given name]"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Subburaj"
+    given-names: "Karupppasamy"
+    orcid: "https://orcid.org/[ORCID]"
+repository-code: "https://github.com/[account]/[repository]"
+doi: "[Zenodo DOI]"
+preferred-citation:
+  type: article
+  title: "[Article title]"
+  authors:
+    - family-names: "[Family name]"
+      given-names: "[Given name]"
+    - family-names: "Subburaj"
+      given-names: "Karupppasamy"
+  journal: "Journal of the Mechanical Behavior of Biomedical Materials"
+  year: 2026
+  doi: "[article DOI]"
